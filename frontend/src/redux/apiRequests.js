@@ -7,7 +7,7 @@ export const updateUser = async (user, dispatch) => {
     const res = await axios.post("/v1/update", user);
     dispatch(updateSuccess(res.data));
   } catch (err) {
-    console.log(err);
+    console.log("error", err);
     dispatch(updateError());
   }
 };

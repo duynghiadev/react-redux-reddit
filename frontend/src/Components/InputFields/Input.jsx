@@ -1,4 +1,5 @@
 import "../Edit/EditPage.css";
+import "../Posts/MakePost.css";
 
 const Input = (props) => {
   const { data, setData, label, inputType, classStyle } = props;
